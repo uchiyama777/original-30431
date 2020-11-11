@@ -9,7 +9,18 @@
   list-style: none;
 }
 
+.user-name {
+  text-decoration: none;
+  color: #333333;
+  margin: 60px;
+}
+
 .logout {
+  text-decoration: none;
+  color: #333333;
+}
+
+.sign-up {
   text-decoration: none;
   color: #333333;
 }
@@ -18,11 +29,6 @@
   text-decoration: none;
   color: #333333;
   margin: 60px;
-}
-
-.sign-up {
-  text-decoration: none;
-  color: #333333;
 }
 
 .title {
