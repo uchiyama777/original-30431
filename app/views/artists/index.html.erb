@@ -1,0 +1,20 @@
+<%= image_tag "logo.png", class:"logo" %>
+  <ul class='lists-right'>
+     <% if user_signed_in? %>
+      <%# <% deviseを導入できたら、ログインの有無で表示が変わるように分岐しましょう %>
+      <li><%= link_to current_user.name, "#", class: "user-name" %></li>
+      <li><%= link_to 'ログアウト', destroy_user_session_path, method: :delete, class: "logout" %></li>
+      <% else %>
+      <li><%= link_to '新規登録', new_user_registration_path, class: "sign-up" %></li>
+      <li><%= link_to 'ログイン', new_user_session_path, class: "login" %></li>
+      <%# //deviseを導入できたら、ログインの有無で表示が変わるように分岐しましょう%>
+      <% end %>
+  </ul>
+<div class='title'>
+  <div class='center-content'>
+    <p class='text'>
+おすすめのアーティストや音楽を共有し<br>
+新しいアーティストや音楽を知る為の場所
+   </p>
+  </div>
+</div>

@@ -1,0 +1,54 @@
+.logo{
+  height: 100px;
+  width: 500px;
+}
+
+.lists-right{
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+.user-name {
+  text-decoration: none;
+  color: #333333;
+  margin: 60px;
+}
+
+.logout {
+  text-decoration: none;
+  color: #333333;
+}
+
+.sign-up {
+  text-decoration: none;
+  color: #333333;
+}
+
+.login {
+  text-decoration: none;
+  color: #333333;
+  margin: 60px;
+}
+
+.title {
+  background-image: url("top.png");
+  background-size: cover;
+  height: 50vh;
+  width: 100vw;
+}
+
+.center-content{
+  margin: 0 auto;
+
+  width: 700px;
+}
+
+.text{
+  color: rgb(255, 255, 0);
+  font-size: 30px;
+}
+
+p {
+  margin: 0;
+}
