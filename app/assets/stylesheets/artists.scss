@@ -18,11 +18,25 @@
 .logout {
   text-decoration: none;
   color: #333333;
+  margin: 60px;
 }
 
+.signup-page{
+  margin: 0 auto;
+  text-align: center;
+  max-width: 780px;
+  background-color: gray;
+}
 .sign-up {
   text-decoration: none;
   color: #333333;
+}
+
+.login-page{
+  margin: 0 auto;
+  text-align: center;
+  max-width: 780px;
+  background-color: gray;
 }
 
 .login {
@@ -49,6 +63,86 @@
   font-size: 30px;
 }
 
+.artist-btn {
+  width: 120px;
+  background: rgb(245, 245, 84);
+  text-align: center;
+  border-radius: 4%;
+  bottom: 32px;
+  right: 32px;
+  position: fixed;
+  padding: 15px;
+}
+
+.artist-btn-text {
+  color: lightskyblue;
+  display: block;
+  font-size: 18px;
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+
+.artist-btn-icon{
+  height: 60%;
+  width: 60%;
+}
+
 p {
   margin: 0;
 }
+
+// ここまでindex
+
+.page {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 780px;
+  background-color: gray;
+}
+
+.artist-title{
+  font-size: 30px;
+  margin: 0 auto;
+}
+
+.content {
+  background-color: yellow;
+}
+
+.field{
+  font-size: 20px;
+  margin: 20px 0;
+  border: solid;
+  border-color: #031de2;
+  background-color: yellowgreen;
+}
+
+input[type="text"] {
+  width: 500px;
+  height: 30px;
+}
+
+text_field{
+  width: 200px;
+}
+
+.actions{
+  margin-bottom: 40px;
+  border: solid;
+  border-color: #031de2;
+}
+
+.form__btn{
+  display: inline-block;
+  padding: 0.4em 1.6em;
+  font-size: 15px;
+  color: #fff;
+  text-decoration: none;
+  user-select: none;
+  background: #87CEFA;
+  border: 1px #87CEFA solid;
+  border-radius: 3px;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 2px 0 rgba(0, 0, 0, 0.12);
+  transition: 0.2s ease;
+}
+
