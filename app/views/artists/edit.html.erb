@@ -1,0 +1,7 @@
+<%= link_to "by #{@artist.user.name}", user_path(@artist.user), class: :prototype__user %>
+<% if current_user == @artist.user%>
+     <div class="prototype__manage">
+      <%= link_to "編集する", edit_prototype_path, class: :prototype__btn %>
+      <%= link_to "削除する", prototype_path, method: :delete, class: :prototype__btn %>
+      </div>
+  <% end %>

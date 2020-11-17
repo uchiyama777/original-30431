@@ -18,6 +18,13 @@
    </p>
   </div>
 </div>
+<% @artists.each do |artist| %>
+<div class="artist-content">
+  <%= image_tag artist.image, class: 'artist-image' if artist.image.attached? %>
+  <%# <%= link_to artist.name, room_messages_path(room) %>
+  <%= artist.artist_name %>
+</div>
+<% end %>
 <div class='artist-btn'>
   <span class='artist-btn-text'>投稿する</span>
   <a href="/artists/new">
